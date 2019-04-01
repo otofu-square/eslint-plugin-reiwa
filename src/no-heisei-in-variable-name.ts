@@ -18,7 +18,8 @@ export const noHeiseiInVariableName: Rule.RuleModule = {
       if (node.id.name.match(/平成|heisei/i)) {
         context.report({
           node,
-          message: "Do not use heisei or 平成 in variable name, use new era."
+          message:
+            "Do not use 'heisei' or '平成' in variable name, use 'reiwa' or '令和'"
         });
       }
     }

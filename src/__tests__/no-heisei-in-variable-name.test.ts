@@ -5,7 +5,8 @@ const ruleTester = new RuleTester({
   parser: "@typescript-eslint/parser"
 });
 
-const message = "Do not use heisei or 平成 in variable name, use new era.";
+const message =
+  "Do not use 'heisei' or '平成' in variable name, use 'reiwa' or '令和'";
 
 ruleTester.run("no-heisei", noHeiseiInVariableName, {
   valid: [],

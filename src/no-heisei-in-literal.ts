@@ -17,7 +17,8 @@ export const noHeiseiInLiteral: Rule.RuleModule = {
       if (node.value.match(/平成|heisei/i)) {
         context.report({
           node,
-          message: "Do not use heisei or 平成 in string literal, use new era."
+          message:
+            "Do not use 'heisei' or '平成' in string literal, use 'reiwa' or '令和'"
         });
       }
     }

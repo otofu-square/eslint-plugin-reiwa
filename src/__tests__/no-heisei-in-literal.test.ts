@@ -5,7 +5,8 @@ const ruleTester = new RuleTester({
   parser: "@typescript-eslint/parser"
 });
 
-const message = "Do not use heisei or 平成 in string literal, use new era.";
+const message =
+  "Do not use 'heisei' or '平成' in string literal, use 'reiwa' or '令和'";
 
 ruleTester.run("no-heisei", noHeiseiInLiteral, {
   valid: [],
