@@ -56,7 +56,7 @@ or
 
 ```js
 module.exports = {
-  extends: ["reiwa:recommended"]
+  extends: ["plugin:reiwa/recommended"]
 };
 ```
 
