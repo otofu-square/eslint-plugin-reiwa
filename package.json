@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-reiwa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint rules to replace heisei with reiwa",
   "repository": "ssh://git@github.com/otofu-square/eslint-plugin-reiwa.git",
   "keywords": [
