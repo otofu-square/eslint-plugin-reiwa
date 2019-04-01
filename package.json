@@ -1,8 +1,13 @@
 {
-  "name": "eslint-plugin-new-gengo",
+  "name": "eslint-plugin-reiwa",
   "version": "0.0.1",
-  "description": "ESLint rules",
-  "repository": "ssh://git@github.com/otofu-square/eslint-plugin-immutable-ts.git",
+  "description": "ESLint rules to replace heisei with reiwa",
+  "repository": "ssh://git@github.com/otofu-square/eslint-plugin-reiwa.git",
+  "keywords": [
+    "eslint",
+    "reiwa",
+    "heisei"
+  ],
   "author": "otofu-square <otofu.square@gmail.com>",
   "license": "MIT",
   "@pika/pack": {
