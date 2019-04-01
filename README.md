@@ -31,9 +31,7 @@ var 平成;
 
 ```sh
 $ yarn add -D eslint-plugin-reiwa
-
 # or
-
 $ npm i -D eslint-plugin-reiwa
 ```
 
@@ -47,7 +45,9 @@ module.exports = {
     ...
   ],
   rules: {
-    "arrow-body-style": ["error", "as-needed"],
+    "reiwa/no-heisei-in-literal": "error",
+    "reiwa/no-heisei-in-variable-name": "error",
+    ...
   }
 }
 ```
