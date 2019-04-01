@@ -6,7 +6,7 @@ const allRules = {
   "no-heisei-in-variable-name": noHeiseiInVariableName
 };
 
-export default {
+module.exports = {
   rules: allRules,
   configs: {
     recommended: {
