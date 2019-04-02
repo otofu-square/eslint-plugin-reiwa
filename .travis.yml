@@ -1,0 +1,22 @@
+sudo: false
+language: node_js
+node_js:
+  - "11"
+  - "10"
+  - "8"
+before_install:
+  - "nvm install-latest-npm"
+before_script:
+  - 'yarn add "eslint@${ESLINT}"'
+script:
+  - "npm run test"
+env:
+  matrix:
+    - ESLINT=5
+    - ESLINT=4
+matrix:
+  fast_finish: true
+  include:
+    - node_js: "lts/*"
+  allow_failures:
+    - node_js: "11"

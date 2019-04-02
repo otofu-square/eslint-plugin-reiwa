@@ -1,4 +1,11 @@
-# eslint-plugin-reiwa
+<h1 align="center">eslint-plugin-reiwa</h1>
+
+<p align="center">
+  <a href="https://github.com/otofu-square/eslint-plugin-reiwa/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/eslint-plugin-reiwa.svg?style=flat-square" alt="GitHub license" /></a>
+  <a href="https://www.npmjs.com/package/eslint-plugin-reiwa"><img src="https://img.shields.io/npm/v/eslint-plugin-reiwa.svg?style=flat-square" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/package/eslint-plugin-reiwa"><img src="https://img.shields.io/npm/dm/eslint-plugin-reiwa.svg?style=flat-square" alt="NPM Downloads" /></a>
+  <a href="https://travis-ci.com/otofu-square/eslint-plugin-reiwa" id="status-image-popup" title="Latest push build on default branch: " name="status-images" class="open-popup" data-ember-action="" data-ember-action-58="58"><img src="https://travis-ci.com/otofu-square/eslint-plugin-reiwa.svg?branch=master" alt="build:"></a>
+</p>
 
 ## What's this?
 
