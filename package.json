@@ -57,5 +57,8 @@
     "prettier": "1.16.4",
     "ts-jest": "24.0.0",
     "typescript": "3.4.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0"
   }
 }
