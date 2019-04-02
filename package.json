@@ -37,10 +37,11 @@
     ]
   },
   "scripts": {
-    "eslint": "eslint --cache ./**/*.ts",
-    "tsc": "tsc --noEmit",
     "build": "pack build",
-    "test": "jest"
+    "eslint": "eslint --cache ./**/*.ts",
+    "publish": "pack publish",
+    "test": "jest",
+    "tsc": "tsc --noEmit"
   },
   "devDependencies": {
     "@pika/pack": "0.3.6",
