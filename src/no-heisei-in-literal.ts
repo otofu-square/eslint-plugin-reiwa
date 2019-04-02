@@ -3,10 +3,8 @@ import { Rule } from "eslint";
 export const noHeiseiInLiteral: Rule.RuleModule = {
   meta: {
     docs: {
-      description: "",
-      category: "Possible Errors",
-      recommended: true,
-      url: ""
+      category: "Lint",
+      recommended: true
     },
     schema: []
   },
